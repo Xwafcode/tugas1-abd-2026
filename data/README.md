@@ -1,40 +1,22 @@
-# Data Tugas 1
+# Dataset Overview
 
-## Dataset yang Dipilih
-
-Isi informasi berikut sebelum Milestone 1.
+Repositori ini memuat (atau mereferensikan) dataset yang digunakan untuk tugas Analisis Big Data.
 
 | Item | Isi |
 |---|---|
-| Nama dataset | `Indonesia Affordable Housing` |
-| Sumber | `HuggingFace (web3hungry/indonesia-affordable-housing)` |
-| Lisensi/ketentuan pakai | `CC0 1.0` |
-| Ukuran | `88.905 baris` |
-| Periode data | `Hingga 2026` |
-| Unit analisis | `Properti/Perumahan` |
+| Nama dataset | `Flood Prediction Dataset (South Sulawesi)` |
+| Sumber | `Kaggle (arashnic/flood-prediction)` |
+| Lisensi/ketentuan pakai | `Bebas (Public Domain / Edukasi)` |
+| Ukuran | `1.025.801 baris` |
+| Periode data | `2003 - 2015` |
+| Unit analisis | `Area Geografis dan Cuaca` |
 
 ## Tempat Mencari Dataset
 
-Pilih dataset Indonesia yang legal digunakan, dapat didokumentasikan sumbernya, dan memenuhi batas ukuran tugas.
+Data dalam repositori ini diletakkan di dalam direktori `data/`. Karena aturan GitHub tidak mengizinkan ukuran file sangat besar (>100MB tanpa LFS), file CSV maupun Parquet telah di-ignore menggunakan `.gitignore`.
 
-| Situs | Kegunaan |
-|---|---|
-| [Satu Data Indonesia](https://data.go.id/) | Portal data terbuka lintas instansi pemerintah Indonesia. |
-| [Badan Pusat Statistik](https://www.bps.go.id/) | Statistik sosial, ekonomi, kependudukan, dan data wilayah. |
-| [BMKG Data Online](https://dataonline.bmkg.go.id/) | Data cuaca, iklim, gempa bumi, dan observasi meteorologi. |
-| [Hugging Face Datasets](https://huggingface.co/datasets) | Dataset publik yang dapat dicari berdasarkan topik, bahasa, atau ukuran. |
-| [Kaggle Datasets](https://www.kaggle.com/datasets) | Katalog dataset publik; periksa lisensi dan dokumentasi pembuatnya. |
-| [Google Dataset Search](https://datasetsearch.research.google.com/) | Mesin pencari untuk menemukan dataset dari berbagai portal. |
-
-## Cara Memperoleh Data
-
-1. Buka URL sumber di atas.
-2. Unduh file ke folder `data/raw/` tanpa mengubah data mentah.
-3. Catat nama file dan checksum bila tersedia.
-4. Ubah variabel `DATA_PATH` pada `notebooks/01_data_profiling.ipynb` agar menunjuk ke file tersebut.
-
-## Aturan Penyimpanan
-
-- Jangan commit dataset mentah atau hasil olahan berukuran besar ke Git.
-- File pada `data/raw/` adalah data asli dan tidak boleh diubah.
-- Simpan hasil transformasi yang dapat direproduksi pada `data/processed/`.
+Untuk menjalankan ulang analisis:
+1. Unduh dataset "Flood Prediction Dataset" dari Kaggle.
+2. Ekstrak dan ganti nama file menjadi `modis_flood_features.csv`.
+3. Letakkan file tersebut di folder `data/` ini.
+4. Jalankan notebook dari urutan awal.
