@@ -6,12 +6,12 @@ Isi informasi berikut sebelum Milestone 1.
 
 | Item | Isi |
 |---|---|
-| Nama dataset | `[isi nama dataset]` |
-| Sumber | `[URL BPS / Satu Data Indonesia / BMKG / HuggingFace / Kaggle]` |
-| Lisensi/ketentuan pakai | `[isi]` |
-| Ukuran | `[>= 500 MB atau > 1.000.000 baris]` |
-| Periode data | `[isi]` |
-| Unit analisis | `[isi]` |
+| Nama dataset | `Indonesia Sales Data (Dummy)` |
+| Sumber | `Generated Script (Python)` |
+| Lisensi/ketentuan pakai | `Bebas (Public Domain / Edukasi)` |
+| Ukuran | `1.200.000 baris` |
+| Periode data | `2023 - 2024` |
+| Unit analisis | `Transaksi Penjualan` |
 
 ## Tempat Mencari Dataset
 

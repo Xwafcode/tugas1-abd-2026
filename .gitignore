@@ -16,6 +16,8 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+data/*.csv
+data/*.parquet
 
 # Output hasil analisis dan visualisasi
 output/figures/*

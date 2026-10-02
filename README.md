@@ -229,8 +229,8 @@ Buka JupyterLab pada `http://localhost:8888/lab`. Konfigurasi Dockerfile menjala
 
 Isi bagian ini sebelum pengumpulan akhir.
 
-> Alat AI yang digunakan: [nama alat].
+> Alat AI yang digunakan: Antigravity AI (Google Deepmind).
 >
-> Bagian yang dibantu: [contoh: penjelasan error Polars atau review dokumentasi].
+> Bagian yang dibantu: Pembuatan dataset dummy, struktur notebook analisis, data cleaning (Polars), profiling (DuckDB), visualisasi interaktif (Plotly).
 >
-> Verifikasi yang dilakukan: [contoh: menjalankan ulang kode, memeriksa dokumentasi resmi, dan memahami setiap cell].
+> Verifikasi yang dilakukan: Menjalankan ulang script untuk memastikan kesesuaian output, memverifikasi syntax Polars dan DuckDB.
