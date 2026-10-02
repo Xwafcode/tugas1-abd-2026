@@ -6,12 +6,12 @@ Isi informasi berikut sebelum Milestone 1.
 
 | Item | Isi |
 |---|---|
-| Nama dataset | `Indonesia Sales Data (Dummy)` |
-| Sumber | `Generated Script (Python)` |
-| Lisensi/ketentuan pakai | `Bebas (Public Domain / Edukasi)` |
-| Ukuran | `1.200.000 baris` |
-| Periode data | `2023 - 2024` |
-| Unit analisis | `Transaksi Penjualan` |
+| Nama dataset | `Indonesia Affordable Housing` |
+| Sumber | `HuggingFace (web3hungry/indonesia-affordable-housing)` |
+| Lisensi/ketentuan pakai | `CC0 1.0` |
+| Ukuran | `88.905 baris` |
+| Periode data | `Hingga 2026` |
+| Unit analisis | `Properti/Perumahan` |
 
 ## Tempat Mencari Dataset
 

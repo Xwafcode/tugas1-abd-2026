@@ -231,6 +231,6 @@ Isi bagian ini sebelum pengumpulan akhir.
 
 > Alat AI yang digunakan: Antigravity AI (Google Deepmind).
 >
-> Bagian yang dibantu: Pembuatan dataset dummy, struktur notebook analisis, data cleaning (Polars), profiling (DuckDB), visualisasi interaktif (Plotly).
+> Bagian yang dibantu: Mengunduh data dari HuggingFace, struktur notebook analisis, data cleaning (Polars), profiling (DuckDB), visualisasi interaktif geospasial (Plotly).
 >
 > Verifikasi yang dilakukan: Menjalankan ulang script untuk memastikan kesesuaian output, memverifikasi syntax Polars dan DuckDB.
